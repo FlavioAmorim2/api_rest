@@ -10,9 +10,7 @@ class HomeController {
       peso: 300,
       altura: 2.5,
     })
-    res.json({
-      novoAluno
-    })
+    res.json(novoAluno)
   }
 }
 
